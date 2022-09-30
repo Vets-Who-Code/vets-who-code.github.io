@@ -24,7 +24,7 @@
     transition: color .3s;
 
     &:hover {
-      color: $themeClrPrimary;
+      color: $vetswhocodeRed;
     }
   }
   &__logo-img-cont {
@@ -33,7 +33,6 @@
     border-radius: 50px;
     overflow: hidden;
     margin-right: 1.5rem;
-    background: $themeClrPrimary;
 
     @include respond(tab-port) {
       width: 4.5rem;
